@@ -1,4 +1,3 @@
-import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 
 class Task2 extends StatefulWidget {
@@ -23,7 +22,7 @@ class _Task2State extends State<Task2> {
       {
         "icon": Icons.minimize,
         "action": () => counter == 0
-            ? null
+            ? 0
             : setState(() {
                 counter--;
               })
